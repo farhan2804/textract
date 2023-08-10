@@ -7,7 +7,7 @@ import UtilityAbout from "./components/About/AboutComponent.jsx";
 function App() {
   return (
     <>
-      <Router basename={import.meta.env.DEV ? '/' : '/textTract/'}>
+      <Router basename={import.meta.env.DEV ? '/' : '/textract/'}>
         <UtilityNavbar brandText="TextTract" />
         <br />
         <Routes>
