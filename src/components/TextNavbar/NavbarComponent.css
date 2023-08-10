@@ -1,0 +1,70 @@
+/* Styles for screens above 768px */
+.Nav {
+    display: flex;
+    background: rgba(239, 10, 10, 0.727);
+    color: white;
+    height: 70px;
+    padding: 15px;
+    align-items: center;
+}
+
+.hidden-link {
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.hidden-link:hover {
+    color: rgb(19, 2, 2);
+}
+
+#Container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#NavbarElements {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+/* Styles for screens below 768px */
+@media (max-width: 768px) {
+    #Container {
+        display: flex;
+    }
+
+    .Nav {
+        display: flex;
+    }
+
+    #NavbarElements {
+        display: flex;
+        flex-direction: row;
+        font-size: 16px;
+    }
+}
+
+@media(max-width:340px)
+{
+   
+        #Container {
+            display: flex;
+        }
+    
+        .Nav {
+            display: flex;
+            height:80px;
+        }
+    
+        #NavbarElements {
+            display: flex;
+            flex-direction: row;
+            font-size: 16px;
+        }
+    
+}
