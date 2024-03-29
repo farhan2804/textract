@@ -34,23 +34,23 @@ const UtilityTextData = () => {
 
   const handleConvertToUpper = () => {
     inputText ? setHasNoInput(false) : setHasNoInput(true);
-    if (hasNumbersOrSpecialChars(inputText)) {
-      setIsInvalidInput(true);
-    } else {
-      setIsInvalidInput(false);
+    // if (hasNumbersOrSpecialChars(inputText)) {
+    //   setIsInvalidInput(true);
+    // } else {
+    //   setIsInvalidInput(false);
       setInputText(convertToUpper(inputText));
-    }
+    // }
   };
 
  
   const handleConvertToLower = () => {
     inputText ? setHasNoInput(false) : setHasNoInput(true);
-    if (hasNumbersOrSpecialChars(inputText)) {
-      setIsInvalidInput(true);
-    } else {
-      setIsInvalidInput(false);
+    // if (hasNumbersOrSpecialChars(inputText)) {
+    //   setIsInvalidInput(true);
+    // } else {
+    //   setIsInvalidInput(false);
       setInputText(convertToLower(inputText));
-    }
+    // }
   };
 
   const handleClearText = () => {
